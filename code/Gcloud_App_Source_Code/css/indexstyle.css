@@ -1,0 +1,434 @@
+body{
+    margin: 0px;
+    background-color: rgb(236, 240, 241);
+}
+
+footer{
+    margin-top: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgb(66, 66, 66);
+    color: rgb(212, 212, 212);
+    font-family: 'Varela Round';
+    font-size: 10px;
+}
+
+#redditlogo{
+    width: 70px;
+    height: auto;
+    padding-top: 60px; 
+}
+
+#banner{
+    text-align: center;
+    background-repeat: no-repeat;
+    background: #2c3e50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #3498db); 
+    background: linear-gradient(to right, #2c3e50, #3498db); 
+    padding-bottom: 78px;
+}
+
+#loadingImageDiv {
+    width: 100%;
+    text-align: center;
+}
+
+#resultsHeading {
+    padding-top: 40px;
+    background: rgb(199, 199, 199);
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 80px; 
+    border-radius:5px;
+    vertical-align: center;
+    margin-top: 2%;
+    margin-bottom: 0.15%;
+}
+
+#resultsHeading h {
+    font-family: 'Varela Round';
+    font-size: 40px;
+    padding-left: 2%;
+}
+
+#title{
+    font-family: 'Varela Round';
+    font-size: 50px;
+    display: inline;
+    font-weight: lighter;
+}
+
+.i{
+    color: orangered;
+}
+
+#titlesentiment{
+    color:white;    
+}
+
+#wrap {
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+
+#wrap table{
+    margin: 100px;
+    background: -webkit-linear-gradient(to right, #2f3f4e, #3498db); 
+    background: linear-gradient(to right, #2f3f4e, #3498db);  
+    color: white;
+    font-family:  'Varela Round';
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#wrap tr, td{
+    border: 15px solid white;
+    padding: 50px 25px 50px 25px;
+    
+}
+
+#sentimentdiv{
+    padding: 30%;
+}
+
+#wrap nav{
+    overflow: hidden;
+    background-color: rgb(238, 238, 238);
+}
+#wrap ul {
+    position: sticky;
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}   
+  
+#wrap li a {
+    font-family: 'Varela Round';
+    float: left;
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#wrap li a:hover {
+    background-color: rgb(214, 214, 214);
+} 
+#searchpostdiv{
+    margin-top: 20px;
+}
+
+.searchpostlabel{
+    font-family: 'Varela Round';
+    Color: white;
+    font-weight: lighter;
+    padding-right: 10px;
+}
+
+#searchpost{
+    font-family: 'Varela Round';
+    border-radius: 40px;
+    padding: 12px 12px 12px 0px;
+    height: 5px;
+    width: 650px;
+    margin: 20px 0;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#create{
+    font-family: "Varela Round";
+    border-radius: 40px;
+    height: 27px;
+    width: 100px;
+    margin-left: 10px;
+    vertical-align: middle;
+    border: none;
+}
+
+
+#create:hover{
+    background-color: rgb(90, 105, 112);
+    color: white;
+}
+
+.result{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    background-color: white;
+    width: 90%  
+
+}
+
+.result:hover{
+    box-shadow: 0 9px 15px 0 rgba(0,0,0,0.2);
+}
+
+.resultTable{
+    background-color: #405972;
+    color: white;
+    border-collapse: collapse;
+    border: 1px white solid;
+    text-align: center;
+    width: 100%;
+}
+
+.analysis{
+    border: 10px white solid;
+    width: 50%;
+    height: 10%;
+    padding-bottom: 20px;
+}
+
+.resultTable p1{
+    font-family: 'Varela Round';
+    text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.resultTable p2{
+    /* font-family: 'Varela Round'; */
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.4);
+}
+
+.postTitle{
+    font-family: 'Varela Round';
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.results h1{
+    font-family: 'Varela Round';
+    font-size: 18px;
+    text-align: center;
+}
+
+#noResults{
+    font-family: 'Varela Round';
+    text-align: center;
+}
+
+
+#BulletinBoard{
+    padding-top: 40px;
+    font-family: 'Varela Round';
+    color: white;
+    font-size: 18px;
+    
+}
+
+#bulletinTableStyle{
+    border-collapse: collapse;
+    /* border: 3px solid rgb(236, 240, 241); */
+    border: 3px solid black;
+    margin-left:auto; 
+    margin-right:auto;
+    width: 70%; 
+} 
+
+#bulletinTableStyle tr td{
+    border: 3px solid rgb(236, 240, 241);
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+}
+
+#bulletinHeading{
+    color: black;
+    font-size: 40px;
+    float: left;
+}
+
+.report{
+    border: 1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    padding: 0px 100px 0px 100px;
+    border-radius: 3.6px;
+}
+
+#bulletinRefresh{
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    float: right;
+    margin-right: 2%;
+}
+
+#bulletinRefresh:hover{
+    background: gray;
+}
+
+#buttonHeading{
+    padding-top: 40px;
+    background: rgb(199, 199, 199);
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 80px; 
+    border-radius:5px;
+    vertical-align: middle;
+}
+
+#buttonHeading h{
+    float: left;
+    padding-left: 2%;
+}
+
+#searchHeadingIcon {
+    height: 80%;
+    width: 5%;
+    vertical-align: middle;
+}
+
+#bulletinHeadingIcon {
+    height: 80%;
+    width: 8%;
+    float: left;
+    margin-right: 2.5%;
+}
+
+#results{
+    background-color: rgb(221, 221, 221);
+    overflow: scroll;
+    height: 60%;
+    width: 69.6%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#results::-webkit-scrollbar {
+    width: 10px;
+}
+
+#results::-webkit-scrollbar-track {
+    background: rgb(221, 221, 221); 
+}
+
+#results::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+#results::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+#loadingImageDiv {
+    background: rgb(221, 221, 221);
+    width: 70%;
+    margin-right:auto;
+    margin-left:auto;
+}
+#wrap{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+#wrap nav{
+    overflow: hidden;
+    background-color: rgb(90, 105, 112);
+}
+#wrap ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}   
+#wrap li{
+    display: inline;
+} 
+#wrap li a {
+    color: white;
+    font-family: 'Varela Round';
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#wrap li a:hover {
+    background-color: rgb(214, 214, 214);
+    color: black;
+
+}
+
+.dropdown{
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.tab {
+    padding-left: 35px;
+  }
+
+#infoParadiv{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    background-color: white;
+    padding: 15px 0px 50px 0px;
+    margin-top: 32px;
+    font-family: 'Varela Round';
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#infoParadiv ul{
+    font-family: 'Varela Round';
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.noResult{
+    font-family: 'Varela Round';
+    text-align: center;
+}
+
+.submitReportButton{
+    background: white;
+    padding: 0px;
+}
+
+#submitReport{
+    font-family: 'Varela Round';
+    width: 100%;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2c3e50;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+#submitReport:hover{
+    color: #fff !important;
+    text-decoration: none;
+    background: #2b4968;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.postTitle{
+    padding-top:35px;
+    padding-bottom: 0px;
+}
